@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Source Serif Pro', serif;
+}
+.container {
+   border: 2px solid black;
+   border-radius: 4px;
+   margin-top: 2%;
+   width: 360px;
+   height: 625px;
+   content: "";
+   position: absolute;
+   z-index: -1;
+   opacity: 0.7;
+   background: url('../bg2.jpg') no-repeat center center/cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#age {
+   margin-left: 60px;
+}
+
+#month {
+   margin-left: 43px;
+}
+
+#day {
+   margin-left: 59px;
+}
+
+#hour {
+   margin-left: 53px;
+}
+
+#minute {
+   margin-left: 40px;
+}
+
+#second {
+   margin-left: 39px;
+}
+
+.age{
+   margin: 7px 12px;
+}
+.btn-sm{
+   
+}
+#submit{
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    margin: 27px auto;
+    padding: 8px 50px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+#submit:hover{
+    background: none;
+    color: black;
+    border: 2px solid red;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+input{
+    padding: 4px 11px;
+    border-radius: 4px;
+    border: none;
+}
