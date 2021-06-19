@@ -1,0 +1,7 @@
+1-- $ git config --global user.name Sagar
+2-- $ git config --global user.email "sagarsi0202@gmail.com"
+3-- $ touch .gitignore
+4-- $ git add .
+5-- $ git commit -m "Initial commit"
+6-- $ git remote add origin ---> <ssh  url.git>
+7-- $ git push origin master
